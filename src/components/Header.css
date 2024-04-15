@@ -1,0 +1,58 @@
+/* Import the Montserrat font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+header {
+  background: linear-gradient(to right, #007bff, #0056b3);
+  padding: 10px 20px;
+  font-family: 'Montserrat', sans-serif; /* Montserrat font */
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; /* Ensure the navbar spans the full width */
+}
+
+.logo-text {
+  margin-right: auto; /* Push logo/text to the extreme left */
+  font-family: 'Great Vibes', cursive; /* Custom font for logo/text */
+  font-size: 24px; /* Font size */
+  color: #fff; /* Font color */
+  text-decoration: none; /* Remove underline */
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600; /* Bold font weight */
+  font-size: 16px; /* Font size */
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #f8f9fa; /* Light text color on hover */
+}
+
+.auth-links {
+  display: flex;
+  gap: 10px;
+}
+
+.auth-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600; /* Bold font weight */
+  font-size: 16px; /* Font size */
+}
