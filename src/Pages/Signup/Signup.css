@@ -1,0 +1,43 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .card {
+    background: linear-gradient(135deg, #ffffff 0%, #e3f2fd 100%);
+    border: none;
+  }
+  
+  .card h3 {
+    color: #333;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif; /* Updated font style */
+    font-size: 1.5rem; /* Reduced font size */
+    letter-spacing: 0.05em; /* Slightly increase letter spacing for aesthetics */
+  }
+  
+  .form-label {
+    color: #495057;
+    text-align: left;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  .text-decoration-none {
+    color: #007bff;
+    transition: color 0.3s ease;
+  }
+  
+  .text-decoration-none:hover {
+    color: #0056b3;
+  }
+  
